@@ -470,13 +470,14 @@ h2 {
 .gallery-list-item {
   width: 370px;
   padding-bottom: 20px;
-
-  border: 1px solid #eeeeee;
 }
 .gallery-list-item:hover,
-.team-list-item:hover {
+.gallery-list-item:focus,
+.team-list-item:hover,
+.team-list-item:focus {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
+  outline: 1px solid #eeeeee;
 }
 .gallery-list-item:not(:nth-child(3n)) {
   margin-right: 30px;
@@ -486,7 +487,6 @@ h2 {
 }
 .gallery-list-img {
   margin-bottom: 20px;
-  width: 368px;
 }
 .gallery-list-title {
   font-weight: 700;
