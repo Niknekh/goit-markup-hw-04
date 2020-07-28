@@ -50,6 +50,9 @@ h2 {
   margin: auto;
 }
 /* HEADER */
+.portfolio-header {
+  border: 1px solid #ececec;
+}
 .header .container {
   display: flex;
 }
@@ -131,6 +134,16 @@ h2 {
 
 .current-link {
   color: var(--accent-color);
+  display: block;
+  padding-bottom: 0px;
+}
+.current-link::after {
+  display: block;
+  content: "";
+  height: 4px;
+  width: 100%;
+  background-color: var(--accent-color);
+  margin-top: 28px;
 }
 /* HERO */
 .hero {
