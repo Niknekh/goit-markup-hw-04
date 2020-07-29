@@ -509,6 +509,8 @@ h2 {
 .gallery-list-title-container {
   border: 1px solid #eeeeee;
   border-top: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .gallery-list-title {
   font-weight: 700;
@@ -518,7 +520,6 @@ h2 {
   color: var(--primary-text-color);
   padding-bottom: 4px;
   padding-left: 24px;
-  padding-top: 20px;
 }
 .gallery-list-desc {
   font-weight: 400;
@@ -527,7 +528,6 @@ h2 {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
   padding-left: 24px;
-  padding-bottom: 20px;
 }
 .gallery-list a {
   text-decoration: none;
