@@ -518,7 +518,7 @@ h2 {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
-  padding-bottom: 4px;
+  margin-bottom: 4px;
   padding-left: 24px;
 }
 .gallery-list-desc {
